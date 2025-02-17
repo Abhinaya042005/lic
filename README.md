@@ -93,11 +93,9 @@ circuit daigram image
 <br>Supply voltage - 1.8v</br>
 <br>**DC Analysis**</br>
 <br><p>DC Analysis is done to ensure the mosfet operates in saturation and to calculate the DC operating point of the transistor.This helps in getting a correct operating point despite the fluctuation in the other parameters.</p></br>
-image
-<br>P=V*I</br> 
-<br>P=100mW, V=1.8V</br>
-<br>I<sub>d</sub>=55.55uA</br>
-<br>V<sub>ds</sub>=V<sub>out</sub></br>
+<br>![Image](https://github.com/user-attachments/assets/2b61b087-1095-4424-8173-03ec7f93c23b)</br>
+<br>V<sub>out</sub>=1.66V, V<sub>in</sub>=0.6V,I<sub>d</sub>=55.5uA.</br>
+<br>Given power diddipation is 100uW, then the current will be I<sub>d</sub>=Power/Voltage=55.5uA.</br>
 <table>
   <tr>
     <td>Width(um)</td>
@@ -130,6 +128,7 @@ image
     <td>1.66</td>
   </tr>
 </table>
+<br>V<sub>ds</sub>=V<sub>d</sub>-V<sub>s</sub>=1.66-0=1.66V</br>
 <br>From the above calculation the operating point = (1.66V,55.6uA)</br>
 <br>**Transient Analysis**</br>
 <br><p></p>This is done to analysis the response of the circuit to time varying signals. This is helpful determine the signal distortion, DC shift between the input and the output. This plays key role in detecting issues like phase distortion. This is essential for high speed applications like communication systems.</p></br>
