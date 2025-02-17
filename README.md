@@ -130,14 +130,14 @@ circuit daigram image
 </table>
 <br>V<sub>ds</sub>=V<sub>d</sub>-V<sub>s</sub>=1.66-0=1.66V</br>
 <br>From the above calculation the operating point = (1.66V,55.6uA)</br>
+
 <br>**Transient Analysis**</br>
 <br><p></p>This is done to analysis the response of the circuit to time varying signals. This is helpful determine the signal distortion, DC shift between the input and the output. This plays key role in detecting issues like phase distortion. This is essential for high speed applications like communication systems.</p></br>
-image
+<br>![Image](https://github.com/user-attachments/assets/e8a81c14-f7a7-4101-87e7-a153aaaccd42)</br>
 <br><p>There is 180 degree phase shift betwwen input and output and a DC level phase shift observed.V<sub>out</sub>=1.66 and the width=0.88um</p></br>
 <br>**AC Analysis**</br>
 <br><p></p>AC Analysis is the small signal analysis of the circuit.This is done to determine the gain of the amplifier circuit.This also helps to analysis the frequency response of the amplifier circuit.The gain is given by A<sub>v</sub>=-g<sub>m</sub>R<sub>d</sub></p></br> 
-image
-<br>Gain=-0.85</br>
+<br>During the process of AC simulation we need to select the decade as type of sweep, with starting frequency as 0.1Hz and the stoping frequency as 1THz.</br>
 
 <br>**Inference**</br>
 <br><p>**AC Analysis**: This deals with circuit powered by alternating current soources, where voltage and current change direction periodically. Analyzes steady state behaviour using phasor or representataion, impedance, and frequency response.</p></br>
