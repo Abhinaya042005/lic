@@ -84,6 +84,7 @@
 <br>**Theory**</br>
 <br><p></p>A diode connected mosfet transistor always is in saturation and acts as a amplifier. The different type of analysis are DC Analysis, AC analysis and transient analysis. The drain current obtained is given by the formula:</p></br>
 <br>I<sub>d</sub>=1/2K<sub>n</sub>V<sub>ov</sub><sub>2</sub> ; V<sub>ov</sub>=V<sub>gs</sub>-V<sub>th</sub> and K<sub>n</sub>U<sub>n</sub>C<sub>ox</sub>W/L
+<br>![Image](https://github.com/user-attachments/assets/8e90316f-c5da-4e86-9363-d0995e4d03c0)</br>
 circuit daigram image
 <br>**Component Details**</br>
 <br><p>This circuit consist of two CMOS (NMOS and PMOS)tsmc, and two voltage source one at drain terminal of first MOSFET other at gate terminal of second MOSFET.</p></br>
