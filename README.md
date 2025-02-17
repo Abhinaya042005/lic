@@ -141,7 +141,9 @@ circuit daigram image
 <br>**AC Analysis**</br>
 <br><p></p>AC Analysis is the small signal analysis of the circuit.This is done to determine the gain of the amplifier circuit.This also helps to analysis the frequency response of the amplifier circuit.The gain is given by A<sub>v</sub>=-g<sub>m</sub>R<sub>d</sub></p></br> 
 <br>During the process of AC simulation we need to select the decade as type of sweep, with starting frequency as 0.1Hz and the stoping frequency as 1THz.</br>
+<br>**Frequency response:**</br>
 
+<br>In this due to higher frequency the parasitic capacitor will get activated.</br>
 <br>**Inference**</br>
 <br><p>**AC Analysis**: This deals with circuit powered by alternating current soources, where voltage and current change direction periodically. Analyzes steady state behaviour using phasor or representataion, impedance, and frequency response.</p></br>
 <br><p>**DC Analysis**: It focuses on circuits powered by direct current sources, where voltage and current remain constant over time.Uses ohm's laws kirchhof's laws, and network theorems for solving circuit parameters</p></br>
