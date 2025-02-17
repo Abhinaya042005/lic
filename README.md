@@ -143,7 +143,9 @@ circuit daigram image
 <br>During the process of AC simulation we need to select the decade as type of sweep, with starting frequency as 0.1Hz and the stoping frequency as 1THz.</br>
 <br>**Frequency response:**</br>
 
+<br>![Image](https://github.com/user-attachments/assets/a8e5cf80-f814-41a9-bdfb-55e55a81d42e)</br>
 <br>In this due to higher frequency the parasitic capacitor will get activated.</br>
+<br>At lower frequency the coupling capacitors will get activated.</br>
 <br>**Inference**</br>
 <br><p>**AC Analysis**: This deals with circuit powered by alternating current soources, where voltage and current change direction periodically. Analyzes steady state behaviour using phasor or representataion, impedance, and frequency response.</p></br>
 <br><p>**DC Analysis**: It focuses on circuits powered by direct current sources, where voltage and current remain constant over time.Uses ohm's laws kirchhof's laws, and network theorems for solving circuit parameters</p></br>
