@@ -60,6 +60,7 @@
 <br>1.8-0 = 1.8v</br>
 <br>As v<sub>ds</sub>>v<sub>ov</sub></br> the mosfet is in saturation region.</br>
 <br>From the above calculations the operating point is (V<sub>ds</sub>,I<sub>d</sub>) = (1.8v,55.6uA)</br>
+
 <br>**Transient Analysis**</br>
 <br><p></p>Transient Analysis is done to analysis the response of the circuit to time varying signals. This helpfull to determine the signal distortion ,DC shift between the input and the output. This plays the key role in detecting issues like phase distortion. This is essential for high speed applications like communication systems.</p></br> 
 <br>![Image](https://github.com/user-attachments/assets/547746fc-1925-4d24-a741-9fcc5da06f99)</br>
@@ -137,3 +138,8 @@ image
 <br><p></p>AC Analysis is the small signal analysis of the circuit.This is done to determine the gain of the amplifier circuit.This also helps to analysis the frequency response of the amplifier circuit.The gain is given by A<sub>v</sub>=-g<sub>m</sub>R<sub>d</sub></p></br> 
 image
 <br>Gain=-0.85</br>
+
+<br>**Inference**</br>
+<br><p>**AC Analysis**: This deals with circuit powered by alternating current soources, where voltage and current change direction periodically. Analyzes steady state behaviour using phasor or representataion, impedance, and frequency response.</p></br>
+<br><p>**DC Analysis**: It focuses on circuits powered by direct current sources, where voltage and current remain constant over time.Uses ohm's laws kirchhof's laws, and network theorems for solving circuit parameters</p></br>
+<br><p>**Transient Analysis**: Examines circuit behaviour during the transition from one steady state condition to another .Involves solving differential equations related to capacitors and inductors,which store and release energy.</p></br>
