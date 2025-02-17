@@ -1,6 +1,6 @@
-**Experiment**<br> Common source amplifier analysis</br>
+**Experiment-1**<br> Common source amplifier analysis</br>
 <br>This experiment is done to show the AC,DC,Transient analysis of common source amplifier</br>
-<br>**Theory**</br>
+<br>**Theory:**</br>
 <br><p>A common source amplifier is one of the most fundamental amplifier configuration.There are three different configuration in which the mosfet can be connected(drain, gate,source)the most popular being common source and common drain configuration. The Moseft acts as an amplifier in the saturation region of operation where V<sub>gs</sub>>V<sub>th</sub>,V<sub>gd</sub><V<sub>th</sub> and V<sub>ds</sub>>=V<sub>ov</sub> for an N channel mosfet.In common source amplifier configuration using MOSFET the source terminal is common to both input and output.</p><br/>
 <br><p>The drain current: 1/2 K<sub>n</sub>V<sub>ov</sub><sub>2</sub>.</p></br>
 <br><p>where V<sub>ov</sub>=V<sub>gs</sub>-V<sub>th</sub> and K<sub>n</sub>=U<sub>n</sub>C<sub>ox</sub>W/L</p></br>
@@ -133,8 +133,11 @@ circuit daigram image
 
 <br>**Transient Analysis**</br>
 <br><p></p>This is done to analysis the response of the circuit to time varying signals. This is helpful determine the signal distortion, DC shift between the input and the output. This plays key role in detecting issues like phase distortion. This is essential for high speed applications like communication systems.</p></br>
-<br>![Image](https://github.com/user-attachments/assets/e8a81c14-f7a7-4101-87e7-a153aaaccd42)</br>
-<br><p>There is 180 degree phase shift betwwen input and output and a DC level phase shift observed.V<sub>out</sub>=1.66 and the width=0.88um</p></br>
+<br>![Image](https://github.com/user-attachments/assets/b0167887-69c4-44fb-91ba-da4359a80bd3)</br>
+<br>From the graph we can calculate the gain of the circuit</br>
+<br>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></br>
+<br>A<sub>v</sub>=1.7V/0.75V</br>
+<br>A<sub>v</sub>=2.26V/V</br>
 <br>**AC Analysis**</br>
 <br><p></p>AC Analysis is the small signal analysis of the circuit.This is done to determine the gain of the amplifier circuit.This also helps to analysis the frequency response of the amplifier circuit.The gain is given by A<sub>v</sub>=-g<sub>m</sub>R<sub>d</sub></p></br> 
 <br>During the process of AC simulation we need to select the decade as type of sweep, with starting frequency as 0.1Hz and the stoping frequency as 1THz.</br>
