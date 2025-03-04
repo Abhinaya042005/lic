@@ -96,8 +96,8 @@
   <p>also let V<sub>in</sub> be 1.214-1.185 = 0.029V</p>
   <p>gain for this mosfet replaced circuit is =8mA/0.029v = 0.275V/V.</p>
 
-   # AC Transient 
-   ![Image](https://github.com/user-attachments/assets/5119b871-f280-4e6b-966b-beba47f8eb6e)
+   # AC analysis
+   ![Image](https://github.com/user-attachments/assets/ebb2ed2c-2504-491a-ba41-52eccef7b1e4)
    <p>In this circuit for 1.2v dc offset voltage, amplitude as 15m and 1KHz frequency.</p>
    image
 
