@@ -10,7 +10,7 @@
  ![Image](https://github.com/user-attachments/assets/90d7ae6a-ae1f-4d14-be85-82091d06334a)
  # DC analysis
  <p>The DC analysis of a differential amplifier circuit focuses on determining the biasing conditions when no input signal is applied. It ensures that the transistors operate in their active region by calculating the quiescent current and voltage across the components, such as resistors and transistors. This helps set the operating point of the amplifier, ensuring it is stable and ready to amplify signals correctly. The analysis involves calculating key values like collector currents and voltages, which ensures that the circuit is properly biased to avoid distortion or improper operation when an AC signal is later applied.</p>
- <p>![Image](https://github.com/user-attachments/assets/126a6509-6699-4d73-be99-25cdaea88c06)</p>
+ 
  <br><p>This differential amplifier circuit has two resirtor each of 1.9kohm, two voltage source of 1.2v,V<sub>dd</sub>=2.2v </p>
  <p>MOSFET length= 180nm</p>
  <p>width=0.4175um</p>
@@ -20,7 +20,7 @@
  
  # Transient analysis
  <p>Transient analysis of a differential amplifier circuit examines how the circuit responds to time-varying input signals over time, especially during switching events or signal changes. It simulates the amplifier's behavior when subjected to fast changes, such as signal pulses or step inputs. This analysis helps determine important characteristics like rise time, fall time, settling time, and the stability of the amplifier. By observing the transient response, it ensures the amplifier can handle real-world dynamic inputs without distortion or excessive delays.</p>
-<p>![Image](https://github.com/user-attachments/assets/dc126d38-ffa8-4bf5-8e48-e283d85fe31a)</p>
+![Image](https://github.com/user-attachments/assets/8f0a89c7-c187-440d-9da9-1efea338e3a9)
  <p>Their is 180degree phase shift between input and output.</p>
  <p>A<sub>v</sub> = V<sub>out</sub>/V<sub>in</sub></p>
  <p>A<sub>v</sub> = 0.042/0.03= 1.4</p>
