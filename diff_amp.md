@@ -20,7 +20,7 @@
  
  # Transient analysis
  <p>Transient analysis of a differential amplifier circuit examines how the circuit responds to time-varying input signals over time, especially during switching events or signal changes. It simulates the amplifier's behavior when subjected to fast changes, such as signal pulses or step inputs. This analysis helps determine important characteristics like rise time, fall time, settling time, and the stability of the amplifier. By observing the transient response, it ensures the amplifier can handle real-world dynamic inputs without distortion or excessive delays.</p>
- image
+ ![Image](https://github.com/user-attachments/assets/dc126d38-ffa8-4bf5-8e48-e283d85fe31a)
  <p>Their is 180degree phase shift between input and output.</p>
  <p>A<sub>v</sub> = V<sub>out</sub>/V<sub>in</sub></p>
  <p>A<sub>v</sub> = 0.042/0.03= 1.4</p>
