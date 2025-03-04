@@ -45,7 +45,7 @@
  ![Image](https://github.com/user-attachments/assets/ffb73f83-5029-4326-b690-51f91a135ba4)
  
  # DC analysis
- image 
+ ![Image](https://github.com/user-attachments/assets/fea17265-17bb-41bc-b47b-ea41968a2da1)
  <p>In this circuit we have replaced the R3 resistor o a current source.Also it has two resistor of 1.8955kohm each, two voltage source of 1.2v,V<sub>dd</sub>=2.2v,current source of 1mA.</p>
  <p>I<sub>1</sub>=P/V<sub>dd</sub> = 2.2mW / 2.2v = 1mA</p>
  <p>current source is replaced of value 1mA</p>
@@ -56,7 +56,7 @@
  <p>from the above simulation the operating point is (V<sub>out</sub>, i<sub>d</sub>)= (1.252v, 0.5mA) </p>
 
  # Transient analysis
- image
+ 
  <p>from the above simulation the gain of the circuit is A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></p>
  <p>V<sub>out</sub> = 1.267-1.225 = 0.042V</p>
  <p>V<sub>in</sub> = 1.21-1.18 = 0.03V</p>
