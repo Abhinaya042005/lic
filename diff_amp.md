@@ -42,7 +42,7 @@
 <p>V<sub>in max</sub>=V<sub>dd</sub>-R<sub>d</sub>I<sub>ss</sub>/2 = V<sub>t</sub></p>
 
 # Circuit2
- image
+ ![Image](https://github.com/user-attachments/assets/ffb73f83-5029-4326-b690-51f91a135ba4)
  
  # DC analysis
  image 
