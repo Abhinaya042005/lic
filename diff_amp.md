@@ -66,7 +66,7 @@
  
  # AC analysis
  <p>The dc offset is 1.2v , amplitude is 15m and frequency 1KHz.</p>
- image
+ ![Image](https://github.com/user-attachments/assets/e4e82865-8df3-440a-b04b-15bf5e834e95)
  <p>The high frequency range is 296.93GHz and low frequency range is 100MHz</p>
  <p>the bandwidth of the simulation is calculated by f<sub>h</sub> - f<sub>l</sub></p>
  <p> BW = 296.93GHz-100MHz = 296.8GHz</p>
