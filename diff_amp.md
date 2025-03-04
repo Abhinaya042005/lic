@@ -13,6 +13,11 @@
  <p>width=0.4175um</p>
  <p>V<sub>in cm</sub>=1.2v</p>
  <p>V<sub>o cm</sub>=1.25v</p>
+ <p># Transient analysis</p>
+ <p>Transient analysis of a differential amplifier circuit examines how the circuit responds to time-varying input signals over time, especially during switching events or signal changes. It simulates the amplifier's behavior when subjected to fast changes, such as signal pulses or step inputs. This analysis helps determine important characteristics like rise time, fall time, settling time, and the stability of the amplifier. By observing the transient response, it ensures the amplifier can handle real-world dynamic inputs without distortion or excessive delays.</p>
+ image
+ <p>Their is 180degree phase shift between input and output.</p>
+ <p>A<sub>v</sub> = V<sub>out</sub>
  <p># AC analysis</p>
  <p>The AC analysis of a differential amplifier focuses on evaluating how the circuit responds to small time-varying input signals. It involves calculating the **voltage gain**, determining the frequency response (including bandwidth and cutoff frequencies), and analyzing the amplifier's impedance. The analysis uses small-signal models for the transistors to determine how the amplifier amplifies the input signals and behaves across different frequencies. It helps ensure the amplifier performs as desired for real-world signals, with proper gain and frequency response.</p>
  image
