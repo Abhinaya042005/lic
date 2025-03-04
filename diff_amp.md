@@ -16,7 +16,7 @@
  <p>width=0.4175um</p>
  <p>V<sub>in cm</sub>=1.2v</p>
  <p>V<sub>o cm</sub>=1.25v</p>
- <p>from the above simulation operating point is (1.25v, 0.5mA).</p></p>
+ <p>from the above simulation operating point is (V<sub>out</sub>, i<sub>d</sub>) = (1.25v, 0.5mA).</p></p>
  
  # Transient analysis
  <p>Transient analysis of a differential amplifier circuit examines how the circuit responds to time-varying input signals over time, especially during switching events or signal changes. It simulates the amplifier's behavior when subjected to fast changes, such as signal pulses or step inputs. This analysis helps determine important characteristics like rise time, fall time, settling time, and the stability of the amplifier. By observing the transient response, it ensures the amplifier can handle real-world dynamic inputs without distortion or excessive delays.</p>
@@ -33,17 +33,87 @@
  <p>The bandwidth of this circuit is BW = f<sub>h</sub>-f<sub>l</sub></p>
  <p>BW= 15.9GHz-100MHz = 15.96GHz</p>
  
- # Input sweep
+ # Input swing
  <p>An input sweep of a differential amplifier circuit involves varying the input voltage over a range and observing the output response. This test helps assess the amplifier’s linearity, gain, and dynamic range. By sweeping the input signal, typically from a minimum to maximum value, you can observe how the output changes, checking for issues like saturation or clipping. The input sweep is useful for evaluating the amplifier’s behavior under different input conditions, ensuring that the amplifier performs consistently within its operating range without distortion.</p>
  image
+<p>The DC offset here is done by taking the average of V<sub>in min</sub> and V<sub>in max</sub></p>
+<p>V<sub>in min</sub>=V<sub>t N</sub> + V<sub>p</sub></p>
+<p>V<sub>in max</sub>=V<sub>dd</sub>-R<sub>d</sub>I<sub>ss</sub>/2 = V<sub>t</sub></p>
 
- # Circuit2
+# Circuit2
  image
- <p># DC analysis</p>
+ 
+ # DC analysis
  image 
- <p>This circuit has two resistor of 1.8955kohm each, two voltage source of 1.2v,V<sub>dd</sub>=2.2v,current source of 1mA.</p>
+ <p>In this circuit we have replaced the R3 resistor o a current source.Also it has two resistor of 1.8955kohm each, two voltage source of 1.2v,V<sub>dd</sub>=2.2v,current source of 1mA.</p>
+ <p>I<sub>1</sub>=P/V<sub>dd</sub> = 2.2mW / 2.2v = 1mA</p>
+ <p>current source is replaced of value 1mA</p>
  <p>MOSFET length = 180nm</p>
  <p>width = 6.2um</p>
+ <p>V<sub>in cm</sub>=1.2v</p>
+ <p>V<sub>o cm</sub>=1.252v</p>
+ <p>from the above simulation the operating point is (V<sub>out</sub>, i<sub>d</sub>)= (1.252v, 0.5mA) </p>
+
+ # Transient analysis
+ image
+ <p>from the above simulation the gain of the circuit is A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></p>
+ <p>V<sub>out</sub> = 1.267-1.225 = 0.042V</p>
+ <p>V<sub>in</sub> = 1.21-1.18 = 0.03V</p>
+ <p>A<sub>v</sub>=0.073/0.029 = 2.5V/V</p>
+ 
+ # AC analysis
+ <p>The dc offset is 1.2v , amplitude is 15m and frequency 1KHz.</p>
+ image
+ <p>The high frequency range is 296.93GHz and low frequency range is 100MHz</p>
+ <p>the bandwidth of the simulation is calculated by f<sub>h</sub> - f<sub>l</sub></p>
+ <p> BW = 296.93GHz-100MHz = 296.8GHz</p>
+
+  # Input swing
+  <p>The dc offset voltage should be changed to avg V<sub>in</sub>.The amplitude is kept at 850m and frequency at 1k.</p>
+  image 
+ 
+  # circuit 3
+  image
+  <p>For this circuit we have replaced the 1mA current to nMOS and added voltage source of 0.76v.</p>
+
+  # DC Analysis
+  image 
+  <p>MOSFET length = 180nm</p>
+  <p>width=  </p>
+  <p>V1 = 0.76v</p>
+  <p>V<sub>o cm</sub> =1.250v</p>
+  <p>from the simulation the operating point is (1.250v, 0.5mA).</p>
+
+  # Transient analysis
+  image
+  <p>from this simulation the we can calculate by</p>
+  <p>V<sub>out</sub> = 1.254-1.246 = 8mV</p>
+  <p>also let V<sub>in</sub> be 1.214-1.185 = 0.029V</p>
+  <p>gain for this mosfet replaced circuit is =8mA/0.029v = 0.275V/V.</p>
+
+   # AC Transient 
+   image 
+   <p>In this circuit for 1.2v dc offset voltage, amplitude as 15m and 1KHz frequency.</p>
+   image
+
+   # Input swing
+   image
+   <p>for this circuit the output waveform is flipped</p>
+
+   # Result:
+   <p>circuit1 -</p>
+   <p>works good but is not very stable</p>
+   <p>Gain is moderate.</p>
+   <p>rejects common siqnal unwanted<</p>
+   <p>circuit2 -</p>
+   <p>more stable than circuit.</p>
+    <p>higher gain</p>
+   <p>better at rejecting unwanted siqnals(high  CMRR)
+   <p>circuit3</p>
+   <p>Almost as good as circuit 2 but not perfect</p>
+   <p>gain is still high</p>
+   <p>common mode rejection is better than circuit 1 but not as good as circuit2.</p>
+  
  
  
  
