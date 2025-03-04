@@ -89,6 +89,7 @@
 
   # Transient analysis
   ![Image](https://github.com/user-attachments/assets/478da79b-0ba3-481c-95ad-56f88522322b)
+  ![Image](https://github.com/user-attachments/assets/a206938c-90cc-403a-b3f1-0a66b5431693)
   
   <p>from this simulation the we can calculate by</p>
   <p>V<sub>out</sub> = 1.254-1.246 = 8mV</p>
