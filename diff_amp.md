@@ -76,7 +76,7 @@
   image 
  
   # circuit 3
-  image
+  ![Image](https://github.com/user-attachments/assets/ce3ef149-0844-41ad-a564-420df73556af)
   <p>For this circuit we have replaced the 1mA current to nMOS and added voltage source of 0.76v.</p>
 
   # DC Analysis
