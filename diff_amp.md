@@ -88,7 +88,8 @@
   <p>from the simulation the operating point is (1.250v, 0.5mA).</p>
 
   # Transient analysis
-  image
+  ![Image](https://github.com/user-attachments/assets/478da79b-0ba3-481c-95ad-56f88522322b)
+  
   <p>from this simulation the we can calculate by</p>
   <p>V<sub>out</sub> = 1.254-1.246 = 8mV</p>
   <p>also let V<sub>in</sub> be 1.214-1.185 = 0.029V</p>
