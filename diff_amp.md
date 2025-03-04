@@ -20,7 +20,7 @@
  
  # Transient analysis
  <p>Transient analysis of a differential amplifier circuit examines how the circuit responds to time-varying input signals over time, especially during switching events or signal changes. It simulates the amplifier's behavior when subjected to fast changes, such as signal pulses or step inputs. This analysis helps determine important characteristics like rise time, fall time, settling time, and the stability of the amplifier. By observing the transient response, it ensures the amplifier can handle real-world dynamic inputs without distortion or excessive delays.</p>
- ![Image](https://github.com/user-attachments/assets/dc126d38-ffa8-4bf5-8e48-e283d85fe31a)
+<p>![Image](https://github.com/user-attachments/assets/dc126d38-ffa8-4bf5-8e48-e283d85fe31a)</p>
  <p>Their is 180degree phase shift between input and output.</p>
  <p>A<sub>v</sub> = V<sub>out</sub>/V<sub>in</sub></p>
  <p>A<sub>v</sub> = 0.042/0.03= 1.4</p>
@@ -28,7 +28,8 @@
  # AC analysis
  <p>The AC analysis of a differential amplifier focuses on evaluating how the circuit responds to small time-varying input signals. It involves calculating the 
  voltage gain, determining the frequency response (including bandwidth and cutoff frequencies), and analyzing the amplifier's impedance. The analysis uses small-signal models for the transistors to determine how the amplifier amplifies the input signals and behaves across different frequencies. It helps ensure the amplifier performs as desired for real-world signals, with proper gain and frequency response.</p>
- image
+ 
+ <p>![Image](https://github.com/user-attachments/assets/11be8c14-9cab-4657-9e57-26c2029eed47)</p>p>
  <p>Gain remains constant as their is no change in R<sub>d</sub>.From the above smulation the maximum frequency range is 15.9GHz and low frequency range is 100MHz.</p>
  <p>The bandwidth of this circuit is BW = f<sub>h</sub>-f<sub>l</sub></p>
  <p>BW= 15.9GHz-100MHz = 15.96GHz</p>
