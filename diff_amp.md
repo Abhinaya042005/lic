@@ -57,7 +57,7 @@
 
  # Transient analysis
  ![Image](https://github.com/user-attachments/assets/6462f6f1-a12a-4b6c-92d9-c62909f9d00d)
- ![Image](https://github.com/user-attachments/assets/6462f6f1-a12a-4b6c-92d9-c62909f9d00d)
+ 
  ![Image](https://github.com/user-attachments/assets/00710043-63e0-495b-a862-598f54bf35c8)
  <p>from the above simulation the gain of the circuit is A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></p>
  <p>V<sub>out</sub> = 1.267-1.225 = 0.042V</p>
