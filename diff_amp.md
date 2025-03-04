@@ -10,7 +10,7 @@
  ![Image](https://github.com/user-attachments/assets/90d7ae6a-ae1f-4d14-be85-82091d06334a)
  # DC analysis
  <p>The DC analysis of a differential amplifier circuit focuses on determining the biasing conditions when no input signal is applied. It ensures that the transistors operate in their active region by calculating the quiescent current and voltage across the components, such as resistors and transistors. This helps set the operating point of the amplifier, ensuring it is stable and ready to amplify signals correctly. The analysis involves calculating key values like collector currents and voltages, which ensures that the circuit is properly biased to avoid distortion or improper operation when an AC signal is later applied.</p>
- image
+ <p>![Image](https://github.com/user-attachments/assets/126a6509-6699-4d73-be99-25cdaea88c06)</p>
  <br><p>This differential amplifier circuit has two resirtor each of 1.9kohm, two voltage source of 1.2v,V<sub>dd</sub>=2.2v </p>
  <p>MOSFET length= 180nm</p>
  <p>width=0.4175um</p>
