@@ -80,7 +80,7 @@
   <p>For this circuit we have replaced the 1mA current to nMOS and added voltage source of 0.76v.</p>
 
   # DC Analysis
-  image 
+  ![Image](https://github.com/user-attachments/assets/44faef9d-3e33-4fd6-8221-1c87622a0fc6)
   <p>MOSFET length = 180nm</p>
   <p>width=  </p>
   <p>V1 = 0.76v</p>
