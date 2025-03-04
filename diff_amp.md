@@ -73,7 +73,7 @@
 
   # Input swing
   <p>The dc offset voltage should be changed to avg V<sub>in</sub>.The amplitude is kept at 850m and frequency at 1k.</p>
-  image 
+  ![Image](https://github.com/user-attachments/assets/b1a15040-7634-4e90-bb3e-477975d02b92)
  
   # circuit 3
   ![Image](https://github.com/user-attachments/assets/ce3ef149-0844-41ad-a564-420df73556af)
@@ -106,19 +106,31 @@
    <p>for this circuit the output waveform is flipped</p>
 
    # Result:
-   <p>circuit1 -</p>
-   <p>works good but is not very stable</p>
-   <p>Gain is moderate.</p>
-   <p>rejects common siqnal unwanted<</p>
-   <p>circuit2 -</p>
-   <p>more stable than circuit.</p>
-    <p>higher gain</p>
-   <p>better at rejecting unwanted siqnals(high  CMRR)
-   <p>circuit3</p>
-   <p>Almost as good as circuit 2 but not perfect</p>
-   <p>gain is still high</p>
-   <p>common mode rejection is better than circuit 1 but not as good as circuit2.</p>
-  
- 
- 
+  <p>In this experiment, we analyze the performance of a differential amplifier across three distinct circuit configurations:</p>
+  <p>Circuit 1: Differential Amplifier with Resistor R<sub>ss</sub></p>
+  <p>In this configuration, a resistor R<sub>ss</sub> is used to establish the emitter bias current for the differential amplifier. The bias current is determined 
+  by the voltage across R<sub>ss</sub> and its resistance value. However, this approach has limitations:</p>
+ <p>Bias Stability: The emitter current is sensitive to variations in power supply voltage and transistor parameters, leading to potential shifts in the operating 
+ point.</p>
+ <p>Common-Mode Rejection Ratio (CMRR): The common-mode gain is inversely related to R<sub>ss</sub> . A lower R<sub>ss</sub> results in higher common-mode gain, 
+ thereby reducing the CMRR and making the amplifier more susceptible to common-mode noise.</p>
+ <p>Circuit 2: Differential Amplifier with Ideal Current Source</p>
+ <p>Here, the resistor R<sub>ss</sub>is replaced by an ideal current source that provides a constant 1 mA bias current. This modification offers significant 
+ improvements:</p>
+ <p>Bias Stability: The ideal current source maintains a steady bias current, ensuring a stable operating point regardless of power supply fluctuations or transistor
+ variations.</p>
+<p>CMRR: The high output impedance of the ideal current source significantly reduces common-mode gain, thereby enhancing the CMRR and improving the amplifier's 
+ ability to reject common-mode signals and noise.</p>
+<p>Circuit 3: Differential Amplifier with NMOS Transistor as Current Source</p>
+<p>In this configuration,R<sub>ss</sub> is replaced by an NMOS transistor acting as a current source, with its gate voltage V<sub>b</sub> set to 0.76 V. This 
+ setup offers a practical approach to implementing a current source:</p>
+<p>Bias Stability: The NMOS transistor provides a relatively constant bias current. However, the actual current may vary due to transistor parameter variations 
+ and temperature changes.</p>
+<p>CMRR: The output impedance of the NMOS current source is high but not as ideal as a theoretical current source. Consequently, while the CMRR is improved 
+ compared to the resistor configuration, it may not be as high as in Circuit 2</p>
+
+
+
+
+
  
