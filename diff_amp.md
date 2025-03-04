@@ -7,7 +7,7 @@
  <p>A differential amplifier is a type of electronic amplifier that amplifies the difference between two input signals. It has two inputs: a non-inverting input and an inverting input. The amplifier increases the voltage difference between these inputs while rejecting any voltage common to both, called the common-mode voltage. This makes it highly effective for applications where the signal needs to be isolated from noise or interference. Differential amplifiers are widely used in signal processing, instrumentation, and communication systems due to their ability to amplify weak signals while rejecting noise.</p>
  
  # Circuit:1
- image
+ ![Image](https://github.com/user-attachments/assets/90d7ae6a-ae1f-4d14-be85-82091d06334a)
  # DC analysis
  <p>The DC analysis of a differential amplifier circuit focuses on determining the biasing conditions when no input signal is applied. It ensures that the transistors operate in their active region by calculating the quiescent current and voltage across the components, such as resistors and transistors. This helps set the operating point of the amplifier, ensuring it is stable and ready to amplify signals correctly. The analysis involves calculating key values like collector currents and voltages, which ensures that the circuit is properly biased to avoid distortion or improper operation when an AC signal is later applied.</p>
  image
@@ -39,6 +39,9 @@
  image
  <p># DC analysis</p>
  image 
+ <p>This circuit has two resistor of 1.8955kohm each, two voltage source of 1.2v,V<sub>dd</sub>=2.2v,current source of 1mA.</p>
+ <p>MOSFET length = 180nm</p>
+ <p>width = 6.2um</p>
  
  
  
