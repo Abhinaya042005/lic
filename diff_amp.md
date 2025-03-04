@@ -56,7 +56,7 @@
  <p>from the above simulation the operating point is (V<sub>out</sub>, i<sub>d</sub>)= (1.252v, 0.5mA) </p>
 
  # Transient analysis
- 
+ ![Image](https://github.com/user-attachments/assets/6462f6f1-a12a-4b6c-92d9-c62909f9d00d)
  <p>from the above simulation the gain of the circuit is A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></p>
  <p>V<sub>out</sub> = 1.267-1.225 = 0.042V</p>
  <p>V<sub>in</sub> = 1.21-1.18 = 0.03V</p>
