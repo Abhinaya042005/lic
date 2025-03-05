@@ -31,9 +31,8 @@
  <p>The AC analysis of a differential amplifier focuses on evaluating how the circuit responds to small time-varying input signals. It involves calculating the 
  voltage gain, determining the frequency response (including bandwidth and cutoff frequencies), and analyzing the amplifier's impedance. The analysis uses small-signal models for the transistors to determine how the amplifier amplifies the input signals and behaves across different frequencies. It helps ensure the amplifier performs as desired for real-world signals, with proper gain and frequency response.</p>
  
- 
- [Image](https://github.com/user-attachments/assets/11be8c14-9cab-4657-9e57-26c2029eed47)</p>p>
- <p>Gain remains constant as their is no change in R<sub>d</sub>.From the above smulation the maximum frequency range is 15.9GHz and low frequency range is 100MHz.</p>
+ ![Image](https://github.com/user-attachments/assets/03fe020a-9cb1-4d91-9b14-ed086cf61785)
+  <p>Gain remains constant as their is no change in R<sub>d</sub>.From the above smulation the maximum frequency range is 15.9GHz and low frequency range is 100MHz.</p>
  <p>The bandwidth of this circuit is BW = f<sub>h</sub>-f<sub>l</sub></p>
  <p>BW= 15.9GHz-100MHz = 15.96GHz</p>
  
