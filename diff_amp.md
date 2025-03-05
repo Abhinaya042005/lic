@@ -69,6 +69,7 @@
  
  # AC analysis
  <p>The dc offset is 1.2v , amplitude is 15m and frequency 1KHz.</p>
+ 
  ![Image](https://github.com/user-attachments/assets/04c4a1c5-a1e8-4c38-9230-0250bc1b2f11)
  <p>The high frequency range is 296.93GHz and low frequency range is 100MHz</p>
  <p>the bandwidth of the simulation is calculated by f<sub>h</sub> - f<sub>l</sub></p>
@@ -76,6 +77,7 @@
 
   # Input swing
   <p>The dc offset voltage should be changed to avg V<sub>in</sub>.The amplitude is kept at 850m and frequency at 1k.</p>
+ 
   ![Image](https://github.com/user-attachments/assets/b1a15040-7634-4e90-bb3e-477975d02b92)
  
   # circuit 3
