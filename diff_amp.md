@@ -59,8 +59,11 @@
  <p>from the above simulation the operating point is (V<sub>out</sub>, i<sub>d</sub>)= (1.252v, 0.5mA) </p>
 
  # Transient analysis
+ <p>V<sub>in</sub>:</p>
  ![Image](https://github.com/user-attachments/assets/6462f6f1-a12a-4b6c-92d9-c62909f9d00d)
+ <p>V<sub>out</sub>:</p>
  ![Image](https://github.com/user-attachments/assets/6c7a6dd9-b644-42b8-bcdb-e0947bd38a8a)
+ <p>V<sub>in out</sub>:</p>
  ![Image](https://github.com/user-attachments/assets/00710043-63e0-495b-a862-598f54bf35c8)
  <p>from the above simulation the gain of the circuit is A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></p>
  <p>V<sub>out</sub> = 1.267-1.225 = 0.042V</p>
@@ -93,8 +96,11 @@
   <p>from the simulation the operating point is (1.250v, 0.5mA).</p>
 
   # Transient analysis
+  <p>V<sub>in</sub>:</p>
   ![Image](https://github.com/user-attachments/assets/478da79b-0ba3-481c-95ad-56f88522322b)
+  <p>V<sub>out</sub>:</p>
   ![Image](https://github.com/user-attachments/assets/a206938c-90cc-403a-b3f1-0a66b5431693)
+  <p>V<sub>in out</sub>:</p>
   ![Image](https://github.com/user-attachments/assets/a32ceda6-5602-4e74-9873-99c02480c4c8)
   <p>from this simulation the we can calculate by</p>
   <p>V<sub>out</sub> = 1.254-1.246 = 8mV</p>
