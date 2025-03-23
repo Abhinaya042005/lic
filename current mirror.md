@@ -23,3 +23,9 @@
 <p>V<sub>out</sub> = 1.162v </p>
 <p>The above circuit is in saturation region that is V<sub>ds</sub>>V<sub>gs</sub>-V<sub>th</sub>.</p>
 
+## Transient Analysis
+<p>The transient analysis of a current mirror examines its response to time-varying signals and how quickly it stabilizes to mirror the reference current. When power is first applied, the transistors undergo a brief settling time as the base-emitter (or gate-source) voltages adjust to establish the desired current. During this phase, capacitive effects in the transistors, such as junction capacitances and stray parasitics, influence the circuit’s speed and stability. In BJTs, base charging delays can cause a short overshoot or undershoot in I<sub>out</sub>, while in MOSFETs, gate capacitance affects the transition speed. To improve transient performance, techniques like adding compensation capacitors or using active feedback circuits can help reduce settling time and enhance stability.</p>
+
+![currentmirror11 dc](https://github.com/user-attachments/assets/9468cb07-154b-4edb-9a04-8846a2cea17b)
+<p>The input voltage given is 0.5V and amplitude </p>
+
