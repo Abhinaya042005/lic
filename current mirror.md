@@ -24,8 +24,318 @@
 <p>The above circuit is in saturation region that is V<sub>ds</sub>>V<sub>gs</sub>-V<sub>th</sub>.</p>
 
 ## Transient Analysis
-<p>The transient analysis of a current mirror examines its response to time-varying signals and how quickly it stabilizes to mirror the reference current. When power is first applied, the transistors undergo a brief settling time as the base-emitter (or gate-source) voltages adjust to establish the desired current. During this phase, capacitive effects in the transistors, such as junction capacitances and stray parasitics, influence the circuit’s speed and stability. In BJTs, base charging delays can cause a short overshoot or undershoot in I<sub>out</sub>, while in MOSFETs, gate capacitance affects the transition speed. To improve transient performance, techniques like adding compensation capacitors or using active feedback circuits can help reduce settling time and enhance stability.</p>
-
 ![currentmirror11 dc](https://github.com/user-attachments/assets/9468cb07-154b-4edb-9a04-8846a2cea17b)
-<p>The input voltage given is 0.5V and amplitude </p>
+<p>The transient analysis of a current mirror examines its response to time-varying signals and how quickly it stabilizes to mirror the reference current. When power is first applied, the transistors undergo a brief settling time as the base-emitter (or gate-source) voltages adjust to establish the desired current. During this phase, capacitive effects in the transistors, such as junction capacitances and stray parasitics, influence the circuit’s speed and stability. In BJTs, base charging delays can cause a short overshoot or undershoot in I<sub>out</sub>, while in MOSFETs, gate capacitance affects the transition speed. To improve transient performance, techniques like adding compensation capacitors or using active feedback circuits can help reduce settling time and enhance stability.</p>
+<p>The input voltage given is 0.5V and amplitude of 1mV and frequency of 1KHz</p>
+<p>The output voltage can be observed as 1.162V</p>
+
+## AC Analysis
+<p>The AC analysis of a current mirror focuses on its small-signal behavior, particularly output impedance and frequency response. Ideally, the output impedance should be high for effective current mirroring, but practical limitations like channel length modulation reduce it. At higher frequencies, parasitic capacitances, such as gate-drain and drain-substrate capacitances, introduce phase shifts and affect stability. These factors limit the bandwidth and accuracy of current mirroring. To improve AC performance, techniques like cascode configurations or gain-boosted mirrors are used to increase output impedance and minimize frequency-dependent distortions.</p>
+
+![currentmirror11 ac](https://github.com/user-attachments/assets/a295cb34-a2e4-428b-a127-dfaced6d8a4d)
+<p>The gain from above simulation is 23.15d<sub>B</sub>.</p>
+<p>The 3d<sub>B</sub> gain is 20.15 and the frequency of this gain is 49.53MHz.</p>
+
+<p><b>1:1 aspect ratio.</b></p>
+<p><b>Length=180nm</b></p>
+<table>
+ <tr>
+  <td>M(u)</td>
+  <td>M2(u)</td>
+  <td>M3(u)</td>
+  <td>I<sub>d</sub>1(mA)</td>
+  <td>I<sub>d</sub>2(mA)</td>
+  <td>I<sub>d</sub>3(mA)</td>
+ </tr>
+ <tr>
+  <td>55</td>
+  <td>55</td>
+  <td>101</td>
+  <td>0.27</td>
+  <td>0.27032</td>
+  <td>0.27032</td>
+ </tr>
+ <tr>
+  <td>55</td>
+  <td>55</td>
+  <td>110</td>
+  <td>0.27</td>
+  <td>0.2768</td>
+  <td>0.2768</td>
+ </tr>
+ <tr>
+  <td>55</td>
+   <td>55</td>
+   <td>90</td>
+   <td>0.27</td>
+   <td>0.2598</td>
+  <td>0.2598</td>
+ </tr>
+</table>
+
+![currentmirror11](https://github.com/user-attachments/assets/b8051d7b-ebf3-4134-b1b0-21693986d5e5)
+
+![currentmirror11 L180 110](https://github.com/user-attachments/assets/4a6df550-471b-4b4a-9e5d-6692470de246)
+
+
+<p><b>Length=500um</b></p>
+<table>
+ <tr>
+  <td>M1(um)</td>
+  <td>M2(um)</td>
+  <td>M3(um)</td>
+  <td>I<sub>d</sub>1(mA)</td>
+    <td>I<sub>d</sub>2(mA)</td>
+    <td>I<sub>d</sub>3(mA)</td>
+ </tr>
+ <tr>
+  <td>55</td>
+   <td>55</td>
+   <td>190</td>
+   <td>0.27</td>
+   <td>0.2703</td>
+   <td>0.2703</td>
+ </tr>
+ <tr>
+  <td>55</td>
+    <td>55</td>
+    <td>180</td>
+    <td>0.27</td>
+   <td>0.2642</td>
+   <td>0.2642</td>
+ </tr>
+ <tr>
+  <td>55</td>
+  <td>55</td>
+  <td>200</td>
+  <td>0.27</td>
+  <td>0.2752</td>
+    <td>0.2752</td>
+ </tr>
+</table>
+
+![currentmirror11 L500 180](https://github.com/user-attachments/assets/a899d18f-7d1a-485f-a675-487ca45b8add)
+
+![currentmirror11 L500 ](https://github.com/user-attachments/assets/efb84ea8-3ae3-44a2-96cc-c55c21af00db)
+
+
+<p><b>Length=1um</b></p>
+<table>
+ <tr>
+  <td>M1(u)</td>
+  <td>M2(u)</td>
+  <td>M3(u)</td>
+    <td>I<sub>d</sub>1(mA)</td>
+    <td>I<sub>d</sub>2(mA)</td>
+    <td>I<sub>d</sub>3(mA)</td>
+ </tr>
+ <tr>
+  <td>55</td>
+   <td>55</td>
+   <td>227</td>
+   <td>0.27</td>
+  <td>0.27002</td>
+  <td>0.27002</td>
+ </tr>
+ <tr>
+  <td>55</td>
+  <td>55</td>
+  <td>220</td>
+  <td>0.27</td>
+  <td>0.2669</td>
+  <td>0.2669</td>
+ </tr>
+ <tr>
+  <td>55</td>
+    <td>55</td>
+    <td>230</td>
+    <td>0.27</td>
+    <td>0.2711</td>
+  <td>0.2711</td>
+ </tr>
+</table>
+
+![currentmirror11 L1u ](https://github.com/user-attachments/assets/79e10cea-ead3-4efa-8899-24d2f138e7bc)
+
+![currentmirror11 L1u 220](https://github.com/user-attachments/assets/0eb91c94-7bca-4ed1-9574-b9afdccf3f04)
+
+## Circuit-2
+
+![Screenshot 2025-03-24 040120](https://github.com/user-attachments/assets/5c1ce8af-59dc-49ef-a956-f68544ab51e7)
+
+<p><b>DC Analysis</b></p>
+In a 1:2 aspect ratio current mirror, the output transistor is sized twice as large as the reference transistor, leading to an output current that is ideally twice the reference current. Since both transistors share the same gate-source voltage, the drain current equation scales with the width-to-length ratio. Given that the output transistor has twice the aspect ratio, it produces I<sub>out</sub>=2I<sub>ref</sub>, making this configuration useful for current scaling in analog and integrated circuits.
+
+![currentmirror12 dc opt](https://github.com/user-attachments/assets/0b2c4298-148d-4fd3-9f20-c0fdb3a467e7)
+<p>From above simulation we can see that the V<sub>out</sub> is 1.1916V</p>
+<p>MOSFET Length-180nm</p>
+<p>Width-118um</p>
+<p>I<sub>0.32mA</sub></p>
+
+<p><b>Transient Analysis</b></p>
+
+<p>In a 1:2 aspect ratio current mirror, the transient response is influenced by the larger output transistor's increased gate capacitance, which affects the circuit’s settling time. When power is applied or a sudden change occurs, the gate voltage  must stabilize, and the larger transistor may introduce a slight delay due to its increased capacitance. This can cause a brief overshoot or undershoot in I<sub>out</sub> before it settles to 2I<sub>ref</sub>. To improve transient performance, techniques like reducing parasitic capacitances or using a compensation network can help achieve faster stabilization and minimal delay.</p>
+<p><b>Input voltage </b></p>
+
+![currentmirror12 transient ip](https://github.com/user-attachments/assets/92a8b98b-95ed-4a64-ba02-e0c89379025c)
+
+<p><b>Output voltage</b></p>
+
+![currentmirror12 transient](https://github.com/user-attachments/assets/40ade5af-3d99-471e-a472-91da9ea377d4)
+
+<p>The input voltage given is 0.5V and amplitude of 1mV and frequency of 1KHz</p>
+
+## AC Analysis
+<p>In a 1:2 aspect ratio current mirror, the AC analysis focuses on output impedance and frequency response. The larger output transistor has twice the width, reducing its small-signal output resistance due to increased channel length modulation effects. Additionally, the increased gate-drain and drain-substrate capacitances introduce more parasitic effects, slightly lowering the bandwidth. As a result, the mirror’s frequency response is affected, with a potential decrease in high-frequency performance.</p>
+
+![cuuentmirror12 ac ](https://github.com/user-attachments/assets/c963e5d9-4da6-423a-ba35-337257f4ca35)
+
+<p>From above simulation the gain is 22.88d<sub>B</sub> and the 3d<sub>B</sub> gain is 19.88</p>
+<p>The frequency of this gain is 34.15MHz</p>
+
+![Screenshot 2025-03-24 042157](https://github.com/user-attachments/assets/52b87695-d0b0-42d2-bb16-448e03316b7d)
+
+<p><b>Length=180nm</b></p>
+<table>
+ <tr>
+  <td>M1(u)</td>
+  <td>M2(u)</td>
+  <td>M3(u)</td>
+    <td>I<sub>d</sub>1(mA)</td>
+    <td>I<sub>d</sub>2(mA)</td>
+    <td>I<sub>d</sub>3(mA)</td>
+ </tr>
+ <tr>
+  <td>55</td>
+   <td>110</td>
+   <td>110</td>
+   <td>0.16</td>
+  <td>0.312</td>
+  <td>0.312</td>
+ </tr>
+<tr>
+ <td>55</td>
+   <td>110</td>
+   <td>100</td>
+   <td>0.16</td>
+  <td>0.30058</td>
+  <td>0.30058</td>
+</tr>
+ <tr>
+   <td>55</td>
+   <td>110</td>
+   <td>90</td>
+   <td>0.16</td>
+  <td>0.2850</td>
+  <td>0.28502</td>
+ </tr>
+ <tr>
+   <td>55</td>
+   <td>110</td>
+   <td>118</td>
+   <td>0.16</td>
+  <td>0.320094</td>
+  <td>0.320094</td>
+ </tr>
+ <tr>
+   <td>55</td>
+   <td>110</td>
+   <td>125</td>
+   <td>0.16</td>
+  <td>0.3258</td>
+  <td>0.3258</td>
+ </tr>
+</table>
+
+![currentmirror12 dc 110](https://github.com/user-attachments/assets/24a807bc-14e4-410f-9bc3-6101ef461724)
+
+![currentmirror12 dc 100](https://github.com/user-attachments/assets/e12d7218-a23b-4d9e-a401-d58b91e439e9)
+
+![currentmirror12 dc opt](https://github.com/user-attachments/assets/e5288676-c4b1-4e4c-a421-b88fd9a23e22)
+
+![currentmirror12 dc 125](https://github.com/user-attachments/assets/9def1306-0490-4cf8-89de-32718ac43506)
+
+<p><b>Length=500um</b></p>
+<table>
+ <tr>
+  <td>M1(u)</td>
+  <td>M2(u)</td>
+  <td>M3(u)</td>
+    <td>I<sub>d</sub>1(mA)</td>
+    <td>I<sub>d</sub>2(mA)</td>
+    <td>I<sub>d</sub>3(mA)</td>
+ </tr>
+ <tr>
+   <td>55</td>
+   <td>110</td>
+   <td>222.5</td>
+   <td>0.16</td>
+  <td>0.32006</td>
+  <td>0.32006</td>
+ </tr>
+ <tr>
+  <td>55</td>
+   <td>110</td>
+   <td>200</td>
+   <td>0.16</td>
+  <td>0.3027</td>
+  <td>0.3027</td>
+ </tr>
+ <tr>
+  <td>55</td>
+   <td>110</td>
+   <td>230</td>
+   <td>0.16</td>
+  <td>0.3243</td>
+  <td>0.3243</td>
+ </tr>
+</table>
+
+![currentmirror12 L500 dc](https://github.com/user-attachments/assets/bb615a41-61b2-4948-9e34-9e7488897396)
+
+![currentmirror12 L500 200](https://github.com/user-attachments/assets/3dd8bab7-f18a-4ff8-bc8b-5168a32ee8c0)
+
+![currentmirror12 L500 230](https://github.com/user-attachments/assets/efeb6df6-0f53-4fef-b4af-22346fd230eb)
+
+<p><b>Length=1um</b></p>
+<table>
+ <tr>
+  <td>M1(u)</td>
+  <td>M2(u)</td>
+  <td>M3(u)</td>
+    <td>I<sub>d</sub>1(mA)</td>
+    <td>I<sub>d</sub>2(mA)</td>
+    <td>I<sub>d</sub>3(mA)</td>
+ </tr>
+ <tr>
+  
+  <td>55</td>
+   <td>110</td>
+   <td>268</td>
+   <td>0.16</td>
+  <td>0.3208</td>
+  <td>0.3208</td>
+ </tr>
+ <tr>
+  <td>55</td>
+   <td>110</td>
+   <td>250</td>
+   <td>0.16</td>
+  <td>0.31103</td>
+  <td>0.31103</td>
+ </tr>
+ <tr>
+   <td>55</td>
+   <td>110</td>
+   <td>280</td>
+   <td>0.16</td>
+  <td>0.3256</td>
+  <td>0.3256</td>
+ </tr>
+</table>
+
+![currntmirror12 L1u dc](https://github.com/user-attachments/assets/bfb694aa-8b22-4850-b4e2-38d32288d712)
+
+![currentmirror12 L1u 280](https://github.com/user-attachments/assets/d547672d-0859-4f17-b4e4-51e5be39282e)
+
 
