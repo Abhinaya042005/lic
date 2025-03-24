@@ -20,6 +20,7 @@
 
 ## DC Analysis
 
+
 ![currentmirror11](https://github.com/user-attachments/assets/86cdff21-62fb-44c4-8261-f38c2458d1f6)
 
 <p>The DC analysis of a current mirror circuit involves determining the reference current and analyzing how accurately it is mirrored at the output. In a basic BJT current mirror, the reference current is set by an external resistor and flows through a diode-connected transistor, establishing a base-emitter voltage. An identical transistor copies this current. However, practical factors like transistor mismatch, base currents, and the Early effect introduce minor deviations. Similarly, in a MOSFET current mirror, the gate-source voltage determines current mirroring, but channel length modulation can affect accuracy. Advanced designs like the Wilson and cascode current mirrors improve precision by increasing output resistance and reducing systematic errors.</p>
@@ -354,7 +355,7 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
 
 <p>This CMOS differential amplifier consists of six MOSFETs (M1–M6) designed to amplify differential signals while rejecting common-mode noise. The NMOS transistors (M2 and M6) form the differential input stage, while M4 and M5 create a current mirror to ensure proper biasing. The PMOS transistors (M1 and M3) act as active loads, enhancing gain. A constant current source (I1) provides biasing, and voltage sources (V3 and V4) supply 2.2V power. Differential input signals with a 180-degree phase shift are applied through V1 and V2. This amplifier is widely used in analog signal processing, offering high gain and noise rejection capabilities.</p>
 
-<p><b>DC Analysis</b></p>
+## DC Analysis
 
 ![current2part dc opt2](https://github.com/user-attachments/assets/2619b502-d6db-4bde-9cb0-9fa2542421c9)
 
@@ -367,14 +368,14 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
 <p>Width of M2 and M6-27.008um</p>
 <p>V<sub>out</sub>=0.6432V/p>
 
-<p><b>Transient</b></p>
+## Transient Analysis
 
 ![current2part transient](https://github.com/user-attachments/assets/3c34c537-2a1d-4ed0-ab67-1c33d2ab7459)
 
 <p>The transient analysis of this CMOS differential amplifier examines its time-domain response to varying input signals. The differential inputs (V1 and V2) are sinusoidal signals with a 180-degree phase shift, causing the NMOS differential pair (M2 and M6) to alternately conduct. This variation is mirrored in the current through the PMOS active loads (M1 and M3), generating an amplified output voltage (Vout). The response time and stability of the circuit depend on the biasing current (I1) and transistor parameters. The transient analysis helps evaluate signal amplification, phase shift, and dynamic performance, ensuring proper operation for analog signal processing applications.</p>
 <p>From above simulation V<sub>out</sub> is 670mV. </p>
 
-<p><b>AC Analysis</b></p>
+## AC Analysis
 
 ![current2part ac analysis](https://github.com/user-attachments/assets/ba4280e5-c1d4-4ff8-8adc-76e6415382ff)
 <p>The AC analysis of this CMOS differential amplifier, as shown in the provided frequency response plot, evaluates the gain and phase characteristics over a wide frequency range. The Bode plot displays the gain (in dB) and phase (in degrees) of the output voltage \( V_{out} \). At low frequencies, the amplifier maintains a relatively stable gain before experiencing a gradual roll-off at higher frequencies due to parasitic capacitances and transistor limitations. The phase shift transitions from 0° at low frequencies to -180° at high frequencies, indicating the frequency-dependent behavior of the amplifier. The -3dB bandwidth, observed around several MHz, defines the effective operating range of the circuit. This analysis helps in determining the amplifier’s suitability for high-frequency applications by assessing its gain stability and phase response over a broad spectrum.</p>
