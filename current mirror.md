@@ -198,14 +198,15 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
 <p>The frequency of this gain is 34.15MHz</p>
 
 ![Screenshot 2025-03-24 042157](https://github.com/user-attachments/assets/52b87695-d0b0-42d2-bb16-448e03316b7d)
+## Aspect ratio 1:2
 ## comparision table for different length
-<p><b>Aspect ratio 1:2</b></p>
+
 <p><b>Length=180nm</b></p>
 <table>
  <tr>
-  <td>M1(u)</td>
-  <td>M2(u)</td>
-  <td>M3(u)</td>
+  <td>M1 W(um)</td>
+  <td>M2 W(um)</td>
+  <td>M3 W(um)</td>
     <td>I<sub>d</sub>1(mA)</td>
     <td>I<sub>d</sub>2(mA)</td>
     <td>I<sub>d</sub>3(mA)</td>
@@ -263,9 +264,9 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
 <p><b>Length=500um</b></p>
 <table>
  <tr>
-  <td>M1(u)</td>
-  <td>M2(u)</td>
-  <td>M3(u)</td>
+  <td>M1 W(um)</td>
+  <td>M2 W(um)</td>
+  <td>M3 W(um)</td>
     <td>I<sub>d</sub>1(mA)</td>
     <td>I<sub>d</sub>2(mA)</td>
     <td>I<sub>d</sub>3(mA)</td>
@@ -305,9 +306,9 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
 <p><b>Length=1um</b></p>
 <table>
  <tr>
-  <td>M1(u)</td>
-  <td>M2(u)</td>
-  <td>M3(u)</td>
+  <td>M1 W(um)</td>
+  <td>M2 W(um)</td>
+  <td>M3 W(um)</td>
     <td>I<sub>d</sub>1(mA)</td>
     <td>I<sub>d</sub>2(mA)</td>
     <td>I<sub>d</sub>3(mA)</td>
