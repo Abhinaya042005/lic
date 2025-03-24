@@ -19,6 +19,9 @@
 =0.27mA
 
 ## DC Analysis
+
+![currentmirror11](https://github.com/user-attachments/assets/86cdff21-62fb-44c4-8261-f38c2458d1f6)
+
 <p>The DC analysis of a current mirror circuit involves determining the reference current and analyzing how accurately it is mirrored at the output. In a basic BJT current mirror, the reference current is set by an external resistor and flows through a diode-connected transistor, establishing a base-emitter voltage. An identical transistor copies this current. However, practical factors like transistor mismatch, base currents, and the Early effect introduce minor deviations. Similarly, in a MOSFET current mirror, the gate-source voltage determines current mirroring, but channel length modulation can affect accuracy. Advanced designs like the Wilson and cascode current mirrors improve precision by increasing output resistance and reducing systematic errors.</p>
 <p>MOSFET length - 180nm</p>
 <p>width of M3- 101um</p>
