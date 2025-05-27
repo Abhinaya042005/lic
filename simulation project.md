@@ -53,11 +53,11 @@ Av = (gmRD) / (1 + gmRS)
 <p>RD = drain resistor = 10 kΩ</p>
 <p>RS = source degeneration resistor = 1 kΩ</p>
 <p>Assuming drain current ID = 250 µA (half of tail current),</p>
-<p>and Kn = 200 µA/V²,
-gm = sqrt(2 KnID)
-   = sqrt(2 * 200 * 250)
-   = sqrt(100000)
-   ≈ 316 µS
+<p>and Kn = 200 µA/V²,</p>
+<p>gm = sqrt(2 KnID)</p>
+ <p>  = sqrt(2 * 200 * 250)</p>
+ <p>= sqrt(100000)</p>
+ <p>  ≈ 316 µS</p>
 
 
 
