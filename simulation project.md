@@ -45,6 +45,21 @@ This configuration ensures that differential signals are amplified while common-
 
 # Component list
 <br>The differential amplifier circuit utilizes two matched NMOS transistors, each with a width of 10 µm and a length of 1 µm, having a threshold voltage (Vth) of 0.7 V and a transconductance parameter (Kn) of 200 µA/V². The drains of the NMOS transistors are connected to the positive supply voltage (VDD = 10 V) through two 10 kΩ resistors (R1 and R2), which serve as load resistors. The sources of the transistors are each connected to ground via 1 kΩ resistors (R3 and R4), providing source degeneration to improve linearity and gain stability. A tail current source (I1) supplies a constant current of 500 µA to the common source node, ensuring balanced differential operation. The input signals are applied to the gates of M1 and M2, typically small sine waves of 1 kHz frequency, while the outputs are taken from the drains of the transistors as Vout1 and Vout2.</br>
+# Calculations
+<p>The small-signal voltage gain of a differential amplifier with source degeneration is given by the formula:</p>
+Av = (gmRD) / (1 + gmRS)
+<p>Where:</p>
+<p>gm = transconductance of the MOSFET</p>
+<p>RD = drain resistor = 10 kΩ</p>
+<p>RS = source degeneration resistor = 1 kΩ</p>
+<p>Assuming drain current ID = 250 µA (half of tail current),</p>
+<p>and Kn = 200 µA/V²,
+gm = sqrt(2 KnID)
+   = sqrt(2 * 200 * 250)
+   = sqrt(100000)
+   ≈ 316 µS
+
+
 
 
 
