@@ -12,7 +12,8 @@ Applying theoretical electronics principles in practical circuit design.
 The operational amplifier 741 is chosen due to its widespread availability, robustness, and educational value. Despite its limitations in speed and bandwidth, it provides an excellent platform for exploring analog signal operations.
 
 # Circuit Diagrams and Working Principles
-<br>**Addition Circuit: Summing Amplifier**</br>
+
+## Addition Circuit: Summing Amplifier
 Working Principle:
 
 A summing amplifier in inverting mode takes multiple voltage inputs through resistors and produces an output proportional to the negative sum of those inputs.
@@ -22,7 +23,7 @@ The op-amp operates in the inverting mode, summing the current from each input:
 V<sub>out</sub> = -R<sub>f</sub> &times; (V<sub>1</sub>/R<sub>1</sub> + V<sub>2</sub>/R<sub>2</sub> + ... + V<sub>n</sub>/R<sub>n</sub>)
 <br>![WhatsApp Image 2025-05-28 at 11 33 44 AM](https://github.com/user-attachments/assets/dbddf0d3-2107-4feb-8a9c-a9d81bc79eca)</br>
 
-**Subtraction Circuit**
+## Subtraction Circuit
 Concept:
 Based on a differential amplifier using both inverting and non-inverting terminals.
 
@@ -37,7 +38,7 @@ Output is the difference between the two input signals.
 Inference:
 With careful resistor selection, the subtraction circuit yields an accurate difference between two inputs with high reliability.
 <br>![WhatsApp Image 2025-05-28 at 11 33 44 AM (1)](https://github.com/user-attachments/assets/450b9f45-f0ca-4943-9069-83164ae266f3)</br>
-<br>**Multiplication Circuit**<br>
+## Multiplication Circuit
 Concept:
 Achieved through a sequence of logarithmic and anti-logarithmic amplifier stages.
 
@@ -100,6 +101,10 @@ Noise Sensitivity: Analog circuits are prone to signal noise, which can distort 
 No Data Storage: Cannot store or process sequences of operations like digital systems.
 
 Environmental Dependence: Performance may vary with humidity, temperature, and supply fluctuations.
+## Result
+The analog calculator circuits—addition, subtraction, and multiplication—were successfully designed and simulated using LTspice. In the addition circuit, the output waveform showed a clean inverted sum of the input voltages, confirming the accurate functioning of the inverting summing amplifier. The amplitude matched theoretical values based on resistor ratios, and the signal remained stable throughout the simulation. In the subtraction circuit, the differential amplifier produced an output representing the voltage difference between the two inputs. The use of equal-value resistors (4.7kΩ) ensured unity gain and minimal offset error, demonstrating high precision and linearity. For the multiplication circuit, the implementation involved converting the inputs to logarithmic signals, summing them, and then applying an anti-log operation to obtain a product signal. Although the output exhibited some nonlinearity due to ideal vs. practical behavior in the simulation, it validated the feasibility of analog multiplication using logarithmic principles. Across all circuits, the simulations closely aligned with theoretical predictions, proving that op-amp-based analog computation is effective for basic arithmetic functions when proper component selection and design are observed.
+
+
 
 
 
